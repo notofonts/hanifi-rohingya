@@ -1,0 +1,40 @@
+{
+    "configuration": {
+        "collidoscope": {
+            "faraway": true,
+            "marks": true,
+            "adjacentmarks": false,
+            "bases": false
+        },
+        "ingredients": {
+            "consonant": "[𐴀𐴁𐴂𐴃𐴄𐴅𐴆𐴇𐴈𐴉𐴊𐴋𐴌𐴍𐴎𐴏𐴐𐴑𐴒𐴓𐴔𐴕𐴖𐴗𐴘𐴙𐴚𐴛𐴜]",
+            "vowel": "[𐴝𐴞𐴟𐴠𐴡]",
+            "tassi": "𐴧",
+            "tana": "𐴦"
+        }
+    },
+    "tests": [
+        {
+            "input_type": "pattern",
+            "input": "consonant tassi vowel tana"
+        },
+        {
+            "input_type": "pattern",
+            "input": "consonant tassi vowel tana consonant"
+        },
+        {
+            "input_type": "pattern",
+            "input": "consonant tassi vowel tana",
+            "features": {
+                "ss01": true
+            }
+        },
+        {
+            "input_type": "pattern",
+            "input": "consonant tassi vowel tana consonant",
+            "features": {
+                "ss01": true
+            }
+        }
+    ]
+}
