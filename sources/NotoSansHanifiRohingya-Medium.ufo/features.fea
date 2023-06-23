@@ -175,3 +175,13 @@ feature ss02 {
     };
     lookup ROHG_alternate_zero;
 } ss02;
+
+feature mark {
+	# Automatic Code Start
+} mark;
+
+feature dist {
+	# Automatic Code Start
+	pos tassi-rohg [ivowel-rohg.medi ivowel-rohg.fina evowel-rohg.medi evowel-rohg.fina] tana-rohg' <-80 0 0 0>;
+	pos tassi-rohg @BASE tana-rohg.ss01' <-120 0 0 0>;
+} dist;
