@@ -18,16 +18,6 @@
         <dimension name="Weight" xvalue="89"/>
       </location>
     </source>
-    <source filename="NotoSansHanifiRohingya-Medium.ufo" name="Noto Sans Hanifi Rohingya Medium" familyname="Noto Sans Hanifi Rohingya" stylename="Medium">
-      <location>
-        <dimension name="Weight" xvalue="106"/>
-      </location>
-    </source>
-    <source filename="NotoSansHanifiRohingya-SemiBold.ufo" name="Noto Sans Hanifi Rohingya SemiBold" familyname="Noto Sans Hanifi Rohingya" stylename="SemiBold">
-      <location>
-        <dimension name="Weight" xvalue="126"/>
-      </location>
-    </source>
     <source filename="NotoSansHanifiRohingya-Bold.ufo" name="Noto Sans Hanifi Rohingya Bold" familyname="Noto Sans Hanifi Rohingya" stylename="Bold">
       <location>
         <dimension name="Weight" xvalue="149"/>
